@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="annotationProcessor.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/annotationProcessor_jar</output-path>
+    <root id="archive" name="annotationProcessor.jar">
+      <element id="module-output" name="annotationProcessor" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/cn/tonlyshy/annotation/ExtractInterface.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/cn/tonlyshy/annotation/InterfaceExtracorProcessor.java" />
+    </root>
+  </artifact>
+</component>
