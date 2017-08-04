@@ -1,0 +1,21 @@
+<!--使用静态资源-->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django</title>
+    <!--静态文件使用方式-->
+    <link href="{% static 'image/icon_dot.png' %}" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+<img src="{% static 'image/icon_title.png' %}">
+<h1>音乐列表:</h1>
+{% if music_list %}
+    <ol>
+        {% for music in music_list %}
+        <li>{{music.title}}</li>
+        {% endfor %}
+    </ol>
+{% endif %}
+</body>
+</html>

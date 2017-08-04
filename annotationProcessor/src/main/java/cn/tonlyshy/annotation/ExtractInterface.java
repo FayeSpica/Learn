@@ -11,5 +11,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 public @interface ExtractInterface {
-    public String value();
+    String value(); //指定要生成的接口名
 }

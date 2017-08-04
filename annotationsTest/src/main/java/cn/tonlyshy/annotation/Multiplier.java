@@ -5,6 +5,11 @@ package cn.tonlyshy.annotation;
  */
 @ExtractInterface("IMultipler")
 public class Multiplier {
+
+    public Multiplier() {
+
+    }
+
     public int multiply(int x, int y) {
         int total = 0;
         for (int i = 0; i < x; i++)

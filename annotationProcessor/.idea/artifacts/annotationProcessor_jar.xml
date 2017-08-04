@@ -5,6 +5,10 @@
       <element id="module-output" name="annotationProcessor" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/java/cn/tonlyshy/annotation/ExtractInterface.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/java/cn/tonlyshy/annotation/InterfaceExtracorProcessor.java" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.9.0/javapoet-1.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc3/auto-service-1.0-rc3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.3/auto-common-0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
