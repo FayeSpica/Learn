@@ -1,0 +1,7 @@
+package cn.tonlyshy.interfaces;
+
+public class OneInterfaceImpl implements OneInterface {
+    public String hello(String word) {
+        return "Word from interface \"OneInterface\":" + word;
+    }
+}
