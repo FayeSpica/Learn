@@ -9,6 +9,12 @@
         <fileset id="fileset2" name="SpringIoc" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/spring-ioc.xml</file>
         </fileset>
+        <fileset id="fileset3" name="SpringInjection" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-injection.xml</file>
+        </fileset>
+        <fileset id="fileset4" name="SpringBeanscope" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-beanscope.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web">
