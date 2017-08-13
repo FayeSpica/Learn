@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <cn.tonlyshy.fmmusicx.customview.SquareLayout
+            android:id="@+id/tab1"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/albumImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:scaleType="fitXY" />
+        </cn.tonlyshy.fmmusicx.customview.SquareLayout>
+    </LinearLayout>
+</layout>

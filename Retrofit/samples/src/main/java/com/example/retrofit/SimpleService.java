@@ -16,6 +16,8 @@
 package com.example.retrofit;
 
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.util.Base64;
 import java.util.List;
 
 import com.google.gson.annotations.SerializedName;
@@ -70,6 +72,7 @@ public final class SimpleService {
             public String name;
             @SerializedName("trackCount")
             public String trackCount;
+
             @SerializedName("playCount")
             public String playCount;
 
@@ -79,6 +82,17 @@ public final class SimpleService {
             public class Music {
                 @SerializedName("name")
                 public String name;
+                @SerializedName("id")
+                public String id;
+                @SerializedName("album")
+                public Album album;
+            }
+
+            public class Album {
+                @SerializedName("name")
+                public String name;
+                @SerializedName("picUrl")
+                public String picUrl;
             }
         }
     }
@@ -136,7 +150,7 @@ public final class SimpleService {
         Call<MusicDetail> call = netEaseMusic.musicDetail(musicId, String.format("[%s]", musicId));
         MusicDetail musicDetail = call.execute().body();
 
-        System.out.println(String.format("name = [%s]", musicDetail.baseInfoList.get(0).name));
+        System.out.println(String.format("name = [%s] id = [%s]", musicDetail.baseInfoList.get(0).name, musicDetail.baseInfoList.get(0).id));
 
 
         String playlistId = "716389650";
@@ -146,7 +160,7 @@ public final class SimpleService {
         System.out.println(String.format("listName = [%s] trackCount = [%s] playCount = [%s]", playlistDetail.result.name, playlistDetail.result.trackCount, playlistDetail.result.playCount));
 
         for (PlaylistDetail.Result.Music music : playlistDetail.result.tracks) {
-            System.out.println(String.format("%s", music.name));
+            System.out.println(String.format("id = [%s] name = [%s] url = [%s]", music.id, music.name, music.album.picUrl));
         }
     }
 }

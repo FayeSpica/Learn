@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeColor">#ffce3d3a</color>
+    <color name="colorPrimary">#d20000</color>
+    <color name="colorPrimaryAccent">#ffce3d3e</color>
+    <color name="colorPrimaryDark">#d20000</color>
+
+    <!-- grey -->
+    <color name="grey_bg">#ebebeb</color>
+    <color name="grey_bg_f4">#f4f4f4</color>
+    <color name="grey_bg_fc">#fcfcfc</color>
+    <color name="grey_bg_d4">#d4d4d4</color>
+    <color name="grey_bg_393">#393a3f</color>
+    <color name="grey_bg_303">#303135</color>
+    <color name="grey_bg_aaa">#aaaaaa</color>
+    <color name="grey_bg_f3f">#f3f2f7</color>
+    <color name="grey_font_dd">#dddddd</color>
+    <color name="grey_font">#333333</color>
+    <color name="grey_font_353">#353535</color>
+    <color name="grey_font_2d3">#2d1e1a</color>
+    <color name="grey_font_565">#565656</color>
+    <color name="grey_font_888">#888888</color>
+    <color name="grey_font_999">#999999</color>
+    <color name="grey_line">@color/grey_line_d9</color>
+    <color name="grey_line_a5">#a5a5a5</color>
+    <color name="grey_line_d9">#d9d9d9</color>
+
+    <!-- white -->
+    <color name="white_bg">#ffffff</color>
+    <color name="white_font">#ffffff</color>
+    <color name="white_font_f8f">#f8fff8</color>
+
+    <!-- green -->
+    <color name="green_line_5da">#5dac3f</color>
+    <color name="green_line_66a">#66a451</color>
+    <color name="green_line_84bc5b">#66a451</color>
+    <color name="green_bg_1ba">#1bac19</color>
+    <color name="green_bg_a3d">#a3dfa3</color>
+    <color name="green_bg_45b">#45bf1a</color>
+    <color name="green_bg_46c">#46c01b</color>
+    <color name="green_font_bde">#bde8bd</color>
+
+    <!-- blue -->
+    <color name="blue_font_5b6">#5b6b8d</color>
+    <color name="blue_bg_278">#2781d7</color>
+
+    <!-- red -->
+    <color name="red_bg">#fe3f3d</color>
+
+    <!-- yellow -->
+    <color name="yellow_bg_fa9">#fa9e3b</color>
+
+    <!-- button -->
+    <color name="button_green">@color/green_bg_1ba</color>
+    <color name="button_green_font">@color/white_font_f8f</color>
+
+    <color name="button_green_disabled">@color/green_bg_a3d</color>
+    <color name="button_green_font_disabled">@color/green_font_bde</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
