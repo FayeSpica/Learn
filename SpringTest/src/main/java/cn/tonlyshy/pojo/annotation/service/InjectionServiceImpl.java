@@ -1,11 +1,20 @@
-package cn.tonlyshy.service;
+package cn.tonlyshy.pojo.annotation.service;
 
-import cn.tonlyshy.dao.InjectionDao;
+import cn.tonlyshy.pojo.annotation.dao.InjectionDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class InjectionServiceImpl implements InjectionService {
 
     private InjectionDao injectionDao;
 
+    public InjectionServiceImpl(){
+
+    }
+
+    @Autowired
     public InjectionServiceImpl(InjectionDao injectionDao) {
         this.injectionDao = injectionDao;
     }

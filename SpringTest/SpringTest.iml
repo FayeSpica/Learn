@@ -15,6 +15,24 @@
         <fileset id="fileset4" name="SpringBeanscope" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/spring-beanscope.xml</file>
         </fileset>
+        <fileset id="fileset5" name="SpringBeanlifecycle" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-beanlifecycle.xml</file>
+        </fileset>
+        <fileset id="fileset6" name="SpringAware" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-aware.xml</file>
+        </fileset>
+        <fileset id="fileset7" name="SpringAutowiring" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-autowiring.xml</file>
+        </fileset>
+        <fileset id="fileset8" name="SpringResource" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-resource.xml</file>
+        </fileset>
+        <fileset id="fileset9" name="SpringBeanannotation" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/spring-beanannotation.xml</file>
+        </fileset>
+        <fileset id="fileset10" name="WebContextConfiguration" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/WebContextConfiguration.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web">

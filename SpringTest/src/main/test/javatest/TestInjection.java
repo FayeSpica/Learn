@@ -1,6 +1,6 @@
 package javatest;
 
-import cn.tonlyshy.service.InjectionService;
+import cn.tonlyshy.pojo.annotation.service.InjectionService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;

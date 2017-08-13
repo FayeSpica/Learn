@@ -1,1 +1,16 @@
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/annotation/dao/InjectionDaoImpl.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/MyApplicationContext.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/autowiring/AutoWiringService.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/resource/MyResource.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/interfaces/OneInterfaceImpl.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/interfaces/Main.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/autowiring/AutoWiringDao.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/interfaces/OneInterface.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/BeanScope.java
 /Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/controller/HomeController.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/annotation/BeanAnnotation.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/annotation/dao/InjectionDao.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/BeanLifeCycle.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/annotation/service/InjectionService.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/annotation/service/InjectionServiceImpl.java
+/Users/liaowm5/Desktop/Learn/Learn/SpringTest/src/main/java/cn/tonlyshy/pojo/MyBeanName.java
